@@ -1,0 +1,17 @@
+<form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+    <!-- Remplace "TA_CLE_ICI" par la clé reçue gratuitement par e-mail de Web3Forms -->
+    <input type="hidden" name="apikey" value="TA_CLE_ICI">
+    
+    <!-- Redirection après inscription (optionnel) -->
+    <input type="hidden" name="subject" value="Nouvelle inscription sur LocalPulse Digital !">
+
+    <div>
+        <label class="block text-xs font-semibold text-gray-400 mb-1">Nom / Société</label>
+        <input type="text" name="name" required placeholder="Mon Entreprise" class="w-full bg-gray-950 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-purple-500">
+    </div>
+    <div>
+        <label class="block text-xs font-semibold text-gray-400 mb-1">Adresse Email</label>
+        <input type="email" name="email" required placeholder="votre@email.com" class="w-full bg-gray-950 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-purple-500">
+    </div>
+    <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold py-3 rounded-lg transition-all">S'inscrire & Recevoir l'accès</button>
+</form>
